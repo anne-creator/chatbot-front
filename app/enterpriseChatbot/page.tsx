@@ -1,0 +1,13 @@
+import Header from '@/components/ui/header'
+import Footer from '@/components/ui/footer'
+export default function EnterpriseChatbotPage() {
+    return (
+        <div>
+            <Header />
+            <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+
+                <h1 classname="center">I am the EnterpriseChatbotPage</h1>
+            </div>
+        </div>
+    )
+}
