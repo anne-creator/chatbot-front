@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - npm install
+
+    build:
+      commands:
+        - npm run build
+    post_build:
+      commands:
+        - aws s3 cp -- recursive ./build s3://codepipeline-us-west-2-621821797065/
+        
