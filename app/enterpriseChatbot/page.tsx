@@ -6,7 +6,7 @@ export default function EnterpriseChatbotPage() {
             <Header />
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
-                <h1 classname="center">I am the EnterpriseChatbotPage</h1>
+                <h1 className="center">I am the EnterpriseChatbotPage</h1>
             </div>
         </div>
     )
