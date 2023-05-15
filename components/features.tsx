@@ -36,7 +36,7 @@ export default function Features() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Advanced Analytics:</h4>
-              <p className="text-lg text-gray-400 text-center">Make data-driven decisions via machine learning algorithms, predictive modeling, and statistical analysis.</p>
+              <p className="text-lg text-gray-400 text-center">Make data-driven decisions through machine learning algorithms, predictive modeling, and statistical analysis.</p>
             </div>
             {/* 2nd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -59,7 +59,7 @@ export default function Features() {
                 </svg>
               </div>
               <h4 className="h4 text-gray-200 text-center mb-2">Scalability and Security</h4>
-              <p className="text-lg text-gray-400 text-center">built with scalability and security in mind, allowing it to handle increasing amounts of data while safeguarding confidential information.</p>
+              <p className="text-lg text-gray-400 text-center">Built with scalability and security to handle increasing amounts of data while safeguarding confidential information.</p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
