@@ -5,12 +5,12 @@ export default function Footer() {
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Blocks */}
-        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12">
+        <div className="grid grid-row-reverse sm:grid-cols-12 gap-8 py-8 md:py-12">
           {/* 1st block */}
-          <div className="sm:col-span-12 lg:col-span-4 lg:max-w-xs">
-            <div className="mb-2">
-              {/* Logo */}
-              <Link className="inline-flex" href="/" aria-label="Cruip">
+          {/* <div className="sm:col-span-12 lg:col-span-4 lg:max-w-xs"> */}
+          {/* <div className="mb-2"> */}
+          {/* Logo */}
+          {/* <Link className="inline-flex" href="/" aria-label="Cruip">
                 <svg className="w-8 h-8" viewBox="0 0 32 32" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
                     <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="108.567%" gradientTransform="matrix(-.00915 -.82755 .99996 -.00757 -.394 1.319)" id="logo2-b">
@@ -30,14 +30,14 @@ export default function Footer() {
                     <use fill="url(#logo2-d)" opacity=".961" xlinkHref="#logo2-c" />
                   </g>
                 </svg>
-              </Link>
-            </div>
-            <div className="text-sm text-gray-600">
+              </Link> */}
+          {/* </div> */}
+          {/* <div className="text-sm text-gray-600">
               <a className="text-gray-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Terms</a> · <a className="text-gray-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Privacy Policy</a>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
           {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-gray-200 font-semibold uppercase mb-2">Products</h6>
             <ul className="text-sm space-y-2">
               <li>
@@ -53,9 +53,9 @@ export default function Footer() {
                 <a className="text-gray-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Experimentation</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-gray-200 font-semibold uppercase mb-2">Resources</h6>
             <ul className="text-sm space-y-2">
               <li>
@@ -71,9 +71,9 @@ export default function Footer() {
                 <a className="text-gray-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Affiliate Program</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-gray-200 font-semibold uppercase mb-2">Compare</h6>
             <ul className="text-sm space-y-2">
               <li>
@@ -89,13 +89,13 @@ export default function Footer() {
                 <a className="text-gray-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Correlation Analysis</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-gray-200 font-semibold uppercase mb-2">Company</h6>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-gray-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">About Us</a>
+                <Link className="text-gray-400 hover:text-blue-500 transition duration-150 ease-in-out" href="aboutUs">About Us</Link>
               </li>
               <li>
                 <a className="text-gray-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Our Story</a>

@@ -17,13 +17,13 @@ export default function Home() {
   return (
     <>
       <Hero />
-      {/* <PressLogos />
+      {/* <PressLogos /> */}
       <Features />
       <Features02 />
-      <Pricing />
-      <Testimonials />
-      <Resources />
-      <Cta /> */}
+      {/* <Pricing /> */}
+      {/* <Testimonials /> */}
+      {/* <Resources /> */}
+      <Cta />
     </>
   )
 }

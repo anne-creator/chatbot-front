@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Illustration from '@/public/images/cta-illustration.svg'
+import Link from 'next/link'
+
 
 export default function Cta() {
   return (
@@ -14,14 +16,14 @@ export default function Cta() {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
-              <h3 className="text-4xl font-bold font-uncut-sans mb-2">Get started with Neon</h3>
-              <p className="text-blue-200">It only takes a few minutes to get started with Neon. Understand your users, start free, today.</p>
+              <h3 className="text-4xl font-bold font-uncut-sans mb-2">Get started with Chatbot</h3>
+              <p className="text-blue-200">It only takes a few minutes to get started with Chatbot. Understand your data, start free, today.</p>
             </div>
             {/* CTA button */}
             <div className="shrink-0">
-              <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full group shadow-lg" href="#0">
-                Start Free Trial <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-              </a>
+              <Link className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full group shadow-lg" href="/enterpriseChatbot">
+                Getting Started <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              </Link>
             </div>
           </div>
         </div>
