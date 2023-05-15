@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Reset Password - Neon',
+  title: 'Reset Password - Chatbot',
   description: 'Page description',
 }
 
@@ -23,7 +23,7 @@ export default function ResetPassword() {
             Reset Password <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
           </button>
         </div>
-      </form>    
+      </form>
     </>
   )
 }

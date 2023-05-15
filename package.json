@@ -1,5 +1,5 @@
 {
-  "name": "neon-next",
+  "name": "chatbot-front",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,8 +15,10 @@
     "@types/react-dom": "^18.2.4",
     "aos": "^3.0.0-beta.6",
     "next": "^13.4.1",
+    "next-videos": "^1.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-player": "^2.12.0",
     "typescript": "^5.0.4"
   },
   "devDependencies": {

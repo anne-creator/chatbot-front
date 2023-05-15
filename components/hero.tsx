@@ -1,20 +1,24 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Illustration from '@/public/images/hero-illustration.svg'
+import ReactPlayer from 'react-player';
 
 export default function Hero() {
   return (
-    <div className=" overflow-hidden min-h-full">
+    <div className="overflow-hidden h-[100vh] mb-50">
       {/* Bg gradient */}
-      <div
-        className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-800 to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10"
+      <video autoPlay loop muted className="absolute -z-10 w-auto min-w-full min-h-full max-w-none opacity-10" >
+        <source src="/videos/hero-video.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-800 to-gray-900 opacity-20 h-[80vh] pointer-events-none -z-10"
         aria-hidden="true"
-      />
-      {/* Illustration */}
-      <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none -z-10" aria-hidden="true">
+      >
+      </div>
+      <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none -z-9" aria-hidden="true">
         <Image src={Illustration} className="max-w-none" priority alt="Hero Illustration" />
       </div>
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+
+      <div className="relative sm:pt-4 max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Hero content */}
           <div className="max-w-xl mx-auto md:max-w-[640px] md:mx-0 text-center md:text-left">
@@ -60,6 +64,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </div>
+
+    </div >
   )
 }

@@ -1,7 +1,7 @@
 import SocialLogin from '@/components/social-login'
 
 export const metadata = {
-  title: 'Sign In - Neon',
+  title: 'Sign In - Chatbot',
   description: 'Page description',
 }
 
@@ -39,7 +39,7 @@ export default function SignIn() {
         <div className="text-sm text-gray-400">
           Don't you have an account? <Link className="font-medium text-blue-500 hover:text-blue-400" href="/signup">Sign Up</Link>
         </div>
-      </div>    
+      </div>
     </>
   )
 }
