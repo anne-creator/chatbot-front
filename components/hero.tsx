@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Illustration from '@/public/images/hero-illustration.svg'
-import ReactPlayer from 'react-player';
 
 export default function Hero() {
   return (

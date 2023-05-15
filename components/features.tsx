@@ -8,7 +8,7 @@ export default function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Focus on solving bigger problems</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Focus on solving data problems</h2>
           </div>
           <div className="pb-16" data-aos="zoom-out">
             <Image src={FeaturesImage} alt="Features" />
@@ -35,8 +35,8 @@ export default function Features() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">Advanced Analytics:</h4>
+              <p className="text-lg text-gray-400 text-center">Make data-driven decisions via machine learning algorithms, predictive modeling, and statistical analysis.</p>
             </div>
             {/* 2nd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -58,8 +58,8 @@ export default function Features() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">Scalability and Security</h4>
+              <p className="text-lg text-gray-400 text-center">built with scalability and security in mind, allowing it to handle increasing amounts of data while safeguarding confidential information.</p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
@@ -81,8 +81,8 @@ export default function Features() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">Easy to use</h4>
+              <p className="text-lg text-gray-400 text-center">User-friendly interface allows intuitively data imiplementing process and detailed data reports.</p>
             </div>
           </div>
         </div>
