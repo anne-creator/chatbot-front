@@ -1,0 +1,13 @@
+version: 2.1
+jobs:
+  build:
+    working_directory: ~/main
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - run:
+          command: npm run build

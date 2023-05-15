@@ -7,7 +7,7 @@ phases:
 
     build:
       commands:
-        - npm run build
+        - V
     post_build:
       commands:
         - aws s3 cp -- recursive ./build s3://codepipeline-us-west-2-621821797065/
